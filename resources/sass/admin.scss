@@ -4,10 +4,15 @@
 // Variables
 @import 'variables';
 
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+// @import '~@fortawesome/fontawesome-free/scss/regular';
+// @import '~@fortawesome/fontawesome-free/scss/solid';
+// @import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import "/node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "/node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "/node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "/node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';

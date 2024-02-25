@@ -1,7 +1,14 @@
-require('./bootstrap');
-require('jquery.easing');
+// Import our custom CSS
+import '../sass/admin.scss'
 
-$(document).ready(function ($) {
+// Import all of Bootstrap's JS
+import * as bootstrap from 'bootstrap'
+
+import 'jquery.easing';
+
+import jQuery from 'jquery';
+
+jQuery(function ($) {
     "use strict"; // Start of use strict
 
     // Toggle the side navigation

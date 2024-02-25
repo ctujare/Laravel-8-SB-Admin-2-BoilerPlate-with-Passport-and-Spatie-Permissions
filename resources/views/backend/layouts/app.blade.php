@@ -16,8 +16,7 @@
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
-  <!-- Styles -->
-  <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
+  @vite(['resources/js/admin.js'])
 </head>
 
 <body id="page-top">
@@ -67,7 +66,7 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
-  <script type="text/javascript" src="{{ asset('js/admin.js') }}"></script>
+  {{-- <script type="text/javascript" src="{{ asset('js/admin.js') }}"></script> --}}
   @yield('script')
 </body>
 
